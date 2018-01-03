@@ -409,6 +409,6 @@ const neptuneTimeDone = window.setInterval(planets.neptune.orbit, speedConstant)
 const cometTimeDone = window.setInterval(planets.comet.orbit, speedConstant);
 
 // start the cat
-$('#catbox').on('click', function () { // this works
+$('#cat').on('click', function () { // this works
   const catTimerDone = window.setInterval(cat.walk, (speedConstant * 2));
 })

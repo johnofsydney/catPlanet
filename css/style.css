@@ -24,7 +24,8 @@ body {
 
 .mammal {
   position: absolute;
-  max-width: 100px
+  max-width: 100px;
+  z-index: 1000;
 }
 
 div {
@@ -60,7 +61,7 @@ div {
 #catbox {
   position: absolute;
   width: 150px;
-  height: 100px;
+  height: 200px;
   left: 1200px;
   top: 750px;
   padding: 2px 10px 2px 10px;

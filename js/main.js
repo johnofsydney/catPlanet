@@ -333,13 +333,6 @@ const cat = {
 
     cat.$catgif.offset({left: (catX), top: (catY)})
 
-    // if (isNear ((cometX+100), (cometY+100), (earthX+50), (earthY-50))) {
-    //   displayInfo (planets.comet.info, planets.comet.name)
-    //   //debugger;
-    //   $('#info').fadeOut(20000)
-    // }
-    //
-
     arr1 = [mercuryX, mercuryY, venusX, venusY, earthX, earthY, marsX, marsY, jupiterX, jupiterY, saturnX, saturnY, uranusX, uranusY, neptuneX, neptuneY]
     for (var i = 0; i < arr1.length; i = i + 2) {
       otherX = arr1[i];
